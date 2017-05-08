@@ -1,0 +1,202 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="myolwinoo.infoupdate.Fragment.InfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="climb.fresherguide.InfoActivity">
+
+        <ImageView
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="University of Computer Studies, Yangon(UCSY)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ရန္ကုန္ကြန္ပ်ဴတာတကၠသိုလ္"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:textColor="@color/colorAccent"
+                        android:id="@+id/title_reactor"
+                        android:text="Reactor"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <RelativeLayout
+                        android:layout_below="@id/title_reactor"
+                        style="@style/InfoData">
+
+                        <ImageView
+                            android:layout_centerVertical="true"
+                            android:id="@+id/icon_reactor"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/reactor_black"/>
+
+                        <TextView
+                            android:layout_toRightOf="@id/icon_reactor"
+                            android:layout_toEndOf="@id/icon_reactor"
+                            style="@style/DataText"
+                            android:text="Dr.Mie Mie Thet Thwin" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:textColor="@color/colorAccent"
+                        android:id="@+id/location_title"
+                        android:text="Location"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <RelativeLayout
+                        android:layout_below="@id/location_title"
+                        style="@style/InfoData">
+
+                        <ImageView
+                            android:layout_centerVertical="true"
+                            android:id="@+id/location_icon"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/ic_place_black_24dp"/>
+
+                        <TextView
+                            android:layout_toRightOf="@id/location_icon"
+                            android:layout_toEndOf="@id/location_icon"
+                            style="@style/DataText"
+                            android:text="No.(4) Street, Shwepyitha Township, Yangon." />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/contact_title"
+                        android:text="Contacts"
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <LinearLayout
+                        android:layout_below="@id/contact_title"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/DataText"
+
+                            android:text="Website: www.ucsy.edu.mm" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            style="@style/DataText"
+                            android:text="Phone: +95 01 610655" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            style="@style/DataText"
+                            android:text="Fax: +95 01 610633" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/history_title"
+                    android:text="History"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <RelativeLayout
+                    android:layout_below="@id/history_title"
+                    style="@style/InfoData">
+
+                    <TextView
+                        style="@style/DataText"
+                        android:lineSpacingExtra="2dp"
+                        android:text="UCSY's origins trace back to the founding of the Universities' Computer Center (UCC) in 1971, located inside the Hlaing Campus of Yangon University. Equipped with ICL Main Frame 1902s, UCC provided computer training to university and government employees. In 1973, it began offering a master's degree program (MSc in Computer Science), and a graduate diploma program (Diploma in Automated Computing) in cooperation with the Mathematics Department of Yangon University. The center added DEC PDP-11/70 mini-computers in 1983, and personal computers in 1990. In 1986, the center added BSc (Computer Science) and BSc (Computer Technology) degree programs.\n\nIn March 1988, it became independent as Institute of Computer Science and Technology (ICST), and began offering bachelor's degree programs in Computer Science. In 1993, it started an internationally accepted International Diploma in Computer Studies (IDCS) program with the help of UK's the National Computing Centre (NCC). On 1 January 1997, the university's control was transferred from the Ministry of Education to the Ministry Science and Technology. On 1 July 1998, it was renamed the University of Computer Studies, Yangon. A graduate school with master's and PhD degree programs was established in May 2001." />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

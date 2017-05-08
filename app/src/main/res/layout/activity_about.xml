@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:id="@+id/logo_name"
+                android:layout_margin="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UCSY Guide"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorAccent"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dec_text"
+                android:layout_below="@id/logo_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thanks"
+                android:layout_margin="8dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="12dp"
+                android:textColor="#1d1c1c" />
+
+            <LinearLayout
+                android:layout_below="@id/dec_text"
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/phone"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:background="@drawable/circle"
+                        android:layout_margin="16dp"
+                        android:id="@+id/phone_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_call_white_24dp"/>
+
+                    <TextView
+                        android:layout_toRightOf="@+id/phone_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09792438469"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/email"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:background="@drawable/circle"
+                        android:layout_margin="16dp"
+                        android:id="@+id/mail_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/email"/>
+
+                    <TextView
+                        android:layout_toRightOf="@+id/mail_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="dev.climb2016@gmail.com"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/fb"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:background="@drawable/circle"
+                        android:layout_margin="16dp"
+                        android:id="@+id/fb_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/fb_logo_white"/>
+
+                    <TextView
+                        android:layout_toRightOf="@+id/fb_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Like us!"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Developed by ©LIMB"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

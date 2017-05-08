@@ -1,0 +1,99 @@
+<android.support.v7.widget.CardView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    card_view:cardBackgroundColor="@color/colorPrimary"
+    android:elevation="2dp"
+    card_view:cardCornerRadius="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:padding="4dp"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/buutar"
+                android:text="Buutar"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="16dp"
+                android:text="To UCSY"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/icon_time"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_access_time_white_24dp"/>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_time"
+                    android:layout_toEndOf="@id/icon_time"
+                    android:id="@+id/time_one"
+                    android:layout_marginLeft="4dp"
+                    android:text="Buutar"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:text="From UCSY"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/icon_time2"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_access_time_white_24dp"/>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_time2"
+                    android:layout_toEndOf="@id/icon_time2"
+                    android:id="@+id/time_two"
+                    android:layout_marginLeft="4dp"
+                    android:text="Buutar"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+ </android.support.v7.widget.CardView>
+

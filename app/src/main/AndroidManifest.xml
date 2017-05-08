@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.climbdev2016.ucsyfresherguide">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme.Base">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme.Base">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Community" />
+        <activity android:name=".activities.CommunityDetail" />
+        <activity android:name=".activities.Gallery" />
+        <activity android:name=".activities.GalleryDetail" />
+        <activity android:name=".activities.Places" />
+        <activity android:name=".activities.PlacesDetails" />
+        <activity android:name=".activities.About" />
+        <activity android:name=".activities.Departments" />
+        <activity android:name=".activities.Info"
+            android:theme="@style/MyMaterialTheme.Base.NoActionBar"/>
+        <activity android:name=".activities.GalleryContainer" />
+        <activity android:name=".activities.Transportation"
+            android:theme="@style/MyMaterialTheme.Base.NoActionBar"/>
+        <activity android:name=".activities.FerryDatailActivity"/>
+    </application>
+
+</manifest>
