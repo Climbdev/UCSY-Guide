@@ -12,3 +12,5 @@ In Our application, you can know about our university such us
 - Places
 - Gallery
 - Transportation,etc..
+
+$ npm install --save https://play.google.com/store/apps/details?id=com.climbdev2016.ucsyfresherguide
