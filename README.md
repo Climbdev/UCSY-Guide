@@ -12,5 +12,5 @@ In Our application, you can know about our university such us
 - Gallery
 - Transportation,etc..
 
-<a href="https://play.google.com/store/apps/details?id=com.climbdev2016.ucsyfresherguide"><img src="https://s3.amazonaws.com/playstoresales.com/wp-content/uploads/2015/11/20201536/Get-it-on-Google-Play.png"></a>
+<a href="https://play.google.com/store/apps/details?id=com.climbdev2016.ucsyfresherguide"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/get-it-on-google-play-preview.png"></a>
 
